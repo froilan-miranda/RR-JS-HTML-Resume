@@ -42,7 +42,6 @@ Now is time create a 2nd page. This page will contain a contact form. The form s
 * Use of validation
 
 ### Instructions
-
 1. Fork this repository
 2. Clone your repository to your local machine `git clone`
 3. Complete lab requirements

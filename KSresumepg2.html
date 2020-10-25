@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <style>
+        h1{text-align:center;}
+        </style>
+
+     <h1>Contact Form</h1>
+  <body>
+      <label for="first name">First Name:</label>
+   <input type="text" id="name" name="user_first" placeholder="Enter First Name" maxlength="30" required> <br>
+
+   <label for="last name">Last Name:</label>
+   <input type="text" id="name" name="user_last" placeholder="Enter Last Name" mexlength="30" required><br><br>
+
+   <label for="number">Phone Number:</label>
+   <input type="tel" id="number" name="user_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+   <label for="type">Phone Number Type:</label>
+   <input type="radio" id="phone_type" value="phone_type" name="Phone Type">
+   <label for="phone_type" class="light">Landline</label>
+   <input type="radio" id="phone_type" value="phone_type" name="Phone Type">
+   <label for="phone_type" class="light">Mobile</label><br><br>
+   
+   <label for="email">Contact Email:</label>
+   <input type="email" id="email" name="user_email" maxlength="50" required><br><br>
+
+   <label for="about">How did you hear about us:</label>
+   <select id="about" name="about">
+       <option value="searchengine">Search Engine</option>
+       <option value="socialmedia">Social Media</option>
+       <option value="Recruiter">Recruiter</option>
+      </select><br><br>
+
+      
+      <label for="interest">Interest for contacting:</label><br><br>
+      <input type="checkbox" id="interest" value="contact_interest" name="user_interest">
+      <label class="light" for="interest">JavaScript</label>
+      <input type="checkbox" id="interest" value="contact_interest" name="user_interest">
+      <label class="light" for="interest">HTML</label>
+      <input type="checkbox" id="interest" value="contact_interest" name="user_interest">
+      <label class="light" for="interest">CSS</label><br><br>
+
+
+      <label for="message">Message:</label>
+      <input type="text" id="message" name="user_message" placeholder="Enter Message Here" maxlength="250">
+
+
+
+
+ </body>
+</html>
