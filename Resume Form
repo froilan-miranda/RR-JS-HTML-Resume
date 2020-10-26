@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Form</title>
+</head>
+<body>
+<h1>Contact Form</h1>
+<form action="contact form" method="post">
+
+<filedset>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" placeholder="First Name" required><br>
+
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" placeholder="Last Name" required><br>
+
+<label for="phone">Phone Number:</label>
+<input type="text" id="phone" pattern="[0-9]{3}-0-9]{3}-0-9]{4}]" required><br>
+
+<label> Phone:</label>
+<input type="radio" id="Landline" value"Landline" name"phone_type">
+<label for="Landline" class="light">Landline</label>
+
+<input type="radio" id="Mobile" value"Mobile" name"phone_type">
+<label for="Mobile" class="light">Mobile</label>
+
+<label for="email">Email:</label>
+<input type="text" id="email" placeholder="Email" required><br>
+
+
+<label> for="source?">How did you hear about us?</label>
+  <select id="source" name="user_source">
+      <option value="Search Engine">Search Engine</option>
+      <option value="Social Media">Social Media</option>
+      <option value="Recruiter">Recruiter</option>
+    </select>
+
+    <textarea id="message" name="user_message"></textarea>
+
+</fieldset>
+</form>
+
+</body>
+</html>
