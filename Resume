@@ -4,6 +4,8 @@
   <title>Resume</title>
 </head>
 <body>
+
+<section>
   <h1>Grant Eldridge</h1>
   <h2>Summary</h2>
   <p>
@@ -16,7 +18,9 @@
     verbal and written communication skills with a natural ability
     to effectively resolve conflict.
   </p>
+</section>
 
+<section>
   <h2>Work Experience</h2>
 
   <h3>Clinical Research Coodinator - St. Francis Hospital</h3>
@@ -33,13 +37,15 @@
     agencies; identify problems and/or inconsistencies and monitor patients'
     progress to include documentation and reporting of adverse events in the
     areas of Leukemia.</p>
+</section>
 
+<section>
   <h2>Education</h2>
   <p>Delaware Technical Community College<br>
   Visual Communications-2009</p>
 
   <a href="www.linkedin.com/in/eldridgegrant">
-
+</section>
 
 
 
