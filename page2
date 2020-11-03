@@ -1,0 +1,21 @@
+ <!DOCTYPE!>
+ <html>
+      <body>
+      <form>
+     <label>
+         <p><label>fname=" David"</p>
+         <p><label>lname=" Lacy"</p>
+         <p><label>contact#="302-287-2597</p>
+         <button radio="mobile landline"></button>
+         <p><label>contact email="<strong>lacyamazon@gmail.com"</strong></p><bk>
+         <p><label>how did you hear about us="<strong>Social Media"</strong></p>
+         <checkbox>list of skills</p>
+           <ul>
+             <li>Supervision</li>
+             <li>Problem Solving</li>
+             <li>Computer Skills</li>
+             <li>Sales Marketing</li>,/checkbox>
+        </ul>
+        </form>     
+
+</body>
